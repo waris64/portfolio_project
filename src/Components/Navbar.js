@@ -1,5 +1,6 @@
-import React from 'react'
+import React from 'react';
 import {Link} from 'react-router-dom';
+import {FaBars} from 'react-icons/fa';
 import "./Navbar.css" ; 
 const Navbar = () => {
   return (
@@ -21,7 +22,9 @@ const Navbar = () => {
                 <Link to="/Project">Project</Link>
             </li>
         </ul>
-        
+        <div className='hamburger'>
+           <FaBars/>
+        </div>
     </div>
   )
 }
