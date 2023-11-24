@@ -1,12 +1,18 @@
-
-
+import Home from './routes/Home';
+import About from './routes/About';
+import Contact from './routes/Contact';
+import Project from './routes/Project';
+import {Route,Routes} from 'react-router-dom';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>Every thing is okay</h1>
-      </header>
-    </div>
+    <>
+    <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/About" element={<About />} />
+        <Route path="/Contact" element={<Contact />} />
+        <Route path="/Pronect" element={<Project />} />
+    </Routes>
+    </>
   );
 }
 
