@@ -8,6 +8,9 @@ const Navbar = () => {
         <Link to="/">
             <h1>Portfolio</h1>
         </Link>
+        <div className='hamburger'>
+           <FaBars size={20} style={{color:"white"}}/>
+        </div>
         <ul>
             <li>
                 <Link to="/Home">Home</Link>
@@ -22,9 +25,6 @@ const Navbar = () => {
                 <Link to="/Project">Project</Link>
             </li>
         </ul>
-        <div className='hamburger'>
-           <FaBars/>
-        </div>
     </div>
   )
 }

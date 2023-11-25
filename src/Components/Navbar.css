@@ -17,11 +17,17 @@ a{
     font-size: 1.2rem;
     font-weight: 500;
 }
+.hamburger{
+    display: none;
+}
 @media screen and (max-width:1040px) {
     .Header {
         flex-direction: column;
     }
     .Header ul{
         flex-direction: column;
+    }
+    .hamburger{
+        display:initial;
     }
 }
