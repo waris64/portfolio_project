@@ -25,9 +25,16 @@ a{
         flex-direction: column;
     }
     .Header ul{
+        padding-top: 3rem;
+        position: absolute;
+    }
+    
+    .Header ul li{
         flex-direction: column;
+        left: -100%;
     }
     .hamburger{
         display:initial;
+        left: 100%;
     }
 }
