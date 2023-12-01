@@ -12,6 +12,7 @@ function App() {
         <Route path="/Contact" element={<Contact />} />
         <Route path="/Pronect" element={<Project />} />
     </Routes>
+    
     </>
   );
 }

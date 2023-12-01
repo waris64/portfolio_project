@@ -1,11 +1,10 @@
 import React from 'react';
-import './HeroImg.css';
-import pic from '../assets/pic.jpg';
+import './Main.css';
 import { Link } from 'react-router-dom';
 
-const HeroImg = () => {
+const Main = () => {
   return (
-   
+
     <div className="hero ">
       <div className='content' >
         <p>Hi, I am Freelancer</p>
@@ -16,8 +15,7 @@ const HeroImg = () => {
         </div>
       </div>
     </div>
-
   );
 }
 
-export default HeroImg;
+export default Main;

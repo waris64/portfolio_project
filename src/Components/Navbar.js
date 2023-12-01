@@ -1,9 +1,9 @@
-import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { FaBars, FaTimes } from 'react-icons/fa';
 import "./Navbar.css";
 const Navbar = () => {
+   
     return (
+        
         <div className='Header'>
             <Link to="/">
                 <h1>Portfolio</h1>
@@ -23,7 +23,7 @@ const Navbar = () => {
                     <Link to="/Contact">Contact</Link>
                 </li>
                 <li>
-                    <Link to="/Project">Project</Link>
+                    <Link to="/Project">Projects</Link>
                 </li>
             </ul>
         </div>
