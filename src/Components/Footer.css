@@ -1,0 +1,17 @@
+.Footer{
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 50px;
+    background: #151414;
+    padding: 3rem;      
+    margin-top: 70vh;
+}
+.social{
+    justify-content: space-evenly;
+    display: flex;
+}
+.contact{
+    font-size: 2rem;
+}
