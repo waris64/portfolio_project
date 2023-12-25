@@ -1,4 +1,4 @@
-.hero>.content{
+.hero>.content {
     position: relative;
     display: flex;
     flex-direction: column;
@@ -8,13 +8,18 @@
     line-height: 3rem;
 }
 
-.btn-light{
+.content p {
+    font-size: 1em;
+}
+
+.btn-light {
     background-color: coral;
-    padding:5px;
-    margin:.2rem;
-}    
-.btn-dark{
-    background-color: #084f71;
-    padding:5px;
-    margin:.2rem;   
+    padding: 5px;
+    margin: .2rem;
+}
+
+.btn-dark {
+    background-color: #8f8989;
+    padding: 5px;
+    margin: .2rem;
 }

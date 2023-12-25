@@ -1,9 +1,14 @@
 import React from 'react'
-
-const About = () => {
-  return (
-    <div>About</div>
-  )
+import Navbar from '../Components/Navbar'
+import Footer from '../Components/Footer'
+import Abt from '../Components/Abt'
+const About = ()=>{
+    return(
+        <div>
+            <Navbar/>
+            <Abt/>
+            <Footer/>
+        </div>
+    );
 }
-
-export default About
+export default About;

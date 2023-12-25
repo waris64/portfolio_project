@@ -1,24 +1,27 @@
-*{
-    color:white;
+* {
+    color: white;
     line-height: 2rem;
 }
 
-.contact-1{
+.contact-main,
+form {
     display: flex;
     margin: 2rem;
+    flex-direction: column;
 }
-.contact{
+
+.contact {
     margin: auto;
 }
-.contact h1{    
-    margin-bottom: 3rem;
+
+input,
+textarea {
+    color: black;
 }
-input{
-    color:black;
-}
-button{
+
+button {
     background-color: white;
-    margin-top:10px;
+    margin-top: 10px;
     height: 8vh;
     width: 10vw;
     color: black;

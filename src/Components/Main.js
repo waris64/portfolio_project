@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 const Main = () => {
   return (
 
-    <div className="hero ">
+    <div className="hero">
       <div className='content' >
         <p>Hi, I am Freelancer</p>
         <h1>React Developer</h1>

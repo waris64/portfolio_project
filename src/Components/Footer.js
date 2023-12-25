@@ -7,30 +7,30 @@ const Footer = () => {
       <div className='left'>
         <label className='contact'>Contact Here</label>
         <div className='home'>
-      <FaHome/>
-      <label>Sargodha , Pakistan</label>
+          <FaHome />
+          <label>Sargodha , Pakistan</label>
         </div>
         <div className='phone'>
-      <FaPhone/>
-      <label>+923186157770</label>
+          <FaPhone />
+          <label>+923186157770</label>
         </div>
-      <div className='mail'>
-      <FaMailBulk/>
-      <label>warismuhammad652@gmail.com</label>
+        <div className='mail'>
+          <FaMailBulk />
+          <label>warismuhammad652@gmail.com</label>
+        </div>
       </div>
-    </div>
       <div className='right'>
         <h1>About the company </h1>
         <span>This is me Waris .I am freelancer . I enjoy discussing new projects and design chellenges</span>
         <br></br>
-       <div className='social'>
-          <FaFacebook/>
-          <FaTwitter/>
-          <FaLinkedin/>
-       </div>
-        
-      </div>
+        <div className='social'>
+          <FaFacebook />
+          <FaTwitter />
+          <FaLinkedin />
         </div>
+
+      </div>
+    </div>
   )
 }
 
