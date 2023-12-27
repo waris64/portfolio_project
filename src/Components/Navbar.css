@@ -2,7 +2,7 @@
 .Header{
    display: flex;
    align-items: center;
-   justify-content: space-between;
+   justify-content: space-around;
    padding: 1rem;
 }
 .Header ul {
@@ -18,12 +18,17 @@ a{
     font-size: 1.2rem;
     font-weight: 500;
 }
+li a{
+    color: coral;
+}
 li a:hover{
+    color: whitesmoke;
+}
+a h1{
     color: coral;
 }
 a h1:hover{
-    color: coral;
-
+    color: whitesmoke;
 }
 .hamburger{
     display: none;

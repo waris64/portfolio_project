@@ -9,10 +9,15 @@
 }
 
 .social {
-    justify-content: space-evenly;
     display: flex;
+    justify-content: center;
 }
-
+.social svg{
+    /* height: 2rem; */
+    width: 2rem;
+    margin: 3rem;
+    
+}
 .contact {
     font-size: 2rem;
 }
