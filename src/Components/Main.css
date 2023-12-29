@@ -4,7 +4,6 @@
 }
 
 .mine {
-<<<<<<< HEAD
   width: 30rem;
   height: 30rem;
   margin-left: 3rem;
@@ -29,78 +28,24 @@
   align-items: center;
 }
 
-=======
-  width: 26rem;
-  height: 25rem;
-  margin-left: 3rem;
-  border-radius: 162px 12px 131px 11px;
-  background: url('../assets/graph.png');
-  background-size: cover;
-}
-
-h1 label {
-  color: coral;
-  font-size: 2rem;
-  text-transform: uppercase;
-}
-
-.colored-word {
-  color: coral;
-}
-
-.icons {
-  display: flex;
-  align-items: baseline;
-  justify-content: space-between;
-  margin-top: 5em;
-}
-
-.icons img {
-  height: 8vh;
-  margin: 1em;
-  border-radius: 50%;
-  cursor: pointer;
-}
-
-.sec {
-  display: flex;
-  align-items: center;
-}
-
->>>>>>> bf0f868527aec6119bb8ef000f0007e07090f62a
 .abt {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-end;
   margin: 2rem;
-<<<<<<< HEAD
   background: #252020;
   opacity: 0.7;
 }
 
 .content {
   margin: 5rem;
-=======
-
-}
-
-.content {
-  padding: 3rem;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
->>>>>>> bf0f868527aec6119bb8ef000f0007e07090f62a
 }
 
 .button-30 {
   align-items: center;
   appearance: none;
-<<<<<<< HEAD
   background-color: #FCFCFD;
-=======
-  background-color: coral;
->>>>>>> bf0f868527aec6119bb8ef000f0007e07090f62a
   border-radius: 4px;
   border-width: 0;
   box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
@@ -128,7 +73,6 @@ h1 label {
   font-size: 18px;
 }
 
-<<<<<<< HEAD
 .button-30:focus {
   box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
 }
@@ -136,28 +80,14 @@ h1 label {
 .button-30:hover {
   box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
   transform: translateY(-2px);
-=======
-.button-30:hover {
-  box-shadow: rgba(205, 200, 195, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
-  transform: scale(1.5rem);
-
->>>>>>> bf0f868527aec6119bb8ef000f0007e07090f62a
 }
 
 .button-30:active {
   box-shadow: #D6D6E7 0 3px 7px inset;
-<<<<<<< HEAD
   transform: translateY(2px);
 }
 
 .social {
   width: 33px;
   height: 33px;
-=======
-  transform: translateY(3px);
-}
-
-.social-main {
-  margin-top: -3rem;
->>>>>>> bf0f868527aec6119bb8ef000f0007e07090f62a
 }
