@@ -53,9 +53,7 @@ const Main = () => {
         <h1>
           My <span className="colored-word">Expertise</span>
         </h1>
-        <section>
-          <RiReactjsFill/>
-        </section>
+       
       </section>
     </div>
   );
