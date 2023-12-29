@@ -1,12 +1,12 @@
 import React from 'react'
 import Navbar from '../Components/Navbar'
 import Footer from '../Components/Footer'
-import Abt from '../Components/Abt'
+import Main from '../Components/Main'
 const About = ()=>{
     return(
         <div>
             <Navbar/>
-            <Abt/>
+            <Main/>
             <Footer/>
         </div>
     );
