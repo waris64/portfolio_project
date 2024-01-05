@@ -7,18 +7,18 @@ import facebook from '../assets/facebook.png';
 import insta from '../assets/insta.jpeg';
 import twitter from '../assets/twitter.png';
 import linkedIn from '../assets/linkedIn.png';
-const Animation =()=>{
-    useEffect(()=>{
+const Animation = () => {
+    useEffect(() => {
         Aos.init();
-    },[])
+    }, [])
 }
 const Abt = () => {
     Animation();
     return (
         <div className="abt">
-            <div className="sec">
-                <section>
-                    <img src={Mine} alt="aboutpage" className="mine" data-aos="fade-right"/>
+            <div className="sec" >
+                <section data-aos="zoom-out">
+                    <img src={Mine} alt="aboutpage" className="mine" data-aos="slide-right" />
                 </section>
                 <section className="content" data-aos="zoom-out">
                     Hi! I am Waris    Front End Developer.<br></br>
@@ -36,20 +36,18 @@ const Abt = () => {
             <section className="social">
                 <section className="icons">
                     <a target="_blank" href="https://www.linkedin.com/in/muhammad-waris-saleh-30a09720b/">
-                        <img src={linkedIn} data-aos="fade-right"/>
+                        <img src={linkedIn} data-aos="fade-right" />
                     </a>
                     <a target="_blank" href="https://www.instagram.com/waris_029/">
-                        <img src={insta} data-aos="zoom-in-right"/>
+                        <img src={insta} data-aos="zoom-in-right" />
                     </a>
                     <a target="_blank" href="https://twitter.com/Waris029">
-                        <img src={twitter} data-aos="zoom-in-right"/>
+                        <img src={twitter} data-aos="zoom-in-right" />
                     </a>
                     <a target="_blank" href="https://web.facebook.com/Waris029/" rel="noopener">
-                        <img src={facebook} alt="logo" data-aos="zoom-in-right"/>
+                        <img src={facebook} alt="logo" data-aos="zoom-in-right" />
                     </a>
                     <br></br>
-                   
-
                 </section>
             </section>
         </div>

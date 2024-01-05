@@ -10,20 +10,22 @@
   border-radius: 162px 12px 131px 11px;
 
 }
-.icons{
+
+.icons {
   display: flex;
   align-items: baseline;
   justify-content: space-between;
   margin-top: 5em;
 }
 
-.icons img{
+.icons img {
   height: 8vh;
-  margin:1em;
+  margin: 1em;
   border-radius: 50%;
   cursor: pointer;
 }
-.sec{
+
+.sec {
   display: flex;
   align-items: center;
 }
