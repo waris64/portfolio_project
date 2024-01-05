@@ -5,9 +5,7 @@
     margin: 0;
     font-family:'Outfit' , sans-serif   ;
 }
-body{
-     background-color: black;
-}
+
 h1,h4,a,p{
     text-decoration: none;
     color: white;
